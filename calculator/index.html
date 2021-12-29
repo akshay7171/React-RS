@@ -1,0 +1,47 @@
+<html>
+</head>
+<br>
+<title>calculator</title>
+<link rel="stylesheet" href="demo.css">
+<script src="demo.js"></script>
+<style>
+    body {
+        margin-left: 40%;
+        margin-top: 7%;
+    }
+</style>
+
+<body>
+    <h1 align="auto"> calculator</h1>
+    <table border="2" align="50" cellpadding="15" cellspacing="12" bgcolor="#c0c0c0">
+        <tr>
+            <td>
+                <input type="text" Size="45" placeholder="enter the numeber" class="input-box" id="calc-input">
+                <div>
+
+                    <button class="test" onclick="addInput('1')"> 1 </button>
+                    <button class="test" onclick="addInput('2')"> 2 </button>
+                    <button class="test" onclick="addInput('3')"> 3 </button>
+                    <button class="ari" onclick="addInput('+')"> + </button>
+                </div>
+                <div>
+                    <button class="test" onclick="addInput('4')"> 4 </button>
+                    <button class="test" onclick="addInput('5')"> 5 </button>
+                    <button class="test" onclick="addInput('6')"> 6 </button>
+                    <button class="ari" onclick="addInput('-')"> - </button>
+                    <div>
+                        <div>
+                            <button class="test" onclick="addInput('7')"> 7 </button>
+                            <button class="test" onclick="addInput('8')"> 8 </button>
+                            <button class="test" onclick="addInput('9')"> 9 </button>
+                            <button class="ari" onclick="addInput('*')"> * </button>
+                        </div>
+                        <button align="center" class="test" onclick="addInput('0')"> 0 </button>
+                        <button class="ari" onclick="addInput('/')"> / </button>
+                        <button class="ari" onclick="result()"> = </button>
+                        <button class="ari" onclick="allClear()"> Ac</button>
+
+    </table>
+</body>
+
+</html>
